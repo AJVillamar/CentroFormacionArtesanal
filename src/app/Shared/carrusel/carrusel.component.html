@@ -1,0 +1,13 @@
+<ngb-carousel class="w-100"
+	#carousel
+	[interval]="5000"
+	[pauseOnHover]="pauseOnHover"
+	[pauseOnFocus]="pauseOnFocus"
+	(slide)="onSlide($event)"
+>
+	<ng-template ngbSlide *ngFor="let img of images; index as i">
+		<div class="picsum-img-wrapper">
+			<img src="../../../assets/img/{{img}}"  class="w-100 caja-img">
+		</div>
+	</ng-template>
+</ngb-carousel>

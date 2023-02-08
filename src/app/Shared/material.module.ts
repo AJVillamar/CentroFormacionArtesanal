@@ -12,14 +12,12 @@ import { MatTableModule } from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
+import { CarruselComponent } from './carrusel/carrusel.component';
 
 
 
 @NgModule({
-  declarations: [
-    FooterComponent,
-    MenuComponent
-  ],
+  declarations: [],
   imports: [
     CommonModule
   ],

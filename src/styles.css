@@ -1,4 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+html, body { 
+    height: 100%; 
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+:root{
+    --blanco: #FFFFFF;
+    --negro: #333;
+    --azulCadete: #3D5A80;
+    --celeste: #98C1D9;
+    --celesteClaro: #E0FBFC;
+    --naranja: #EE6C4D;
+    --combinado: linear-gradient(to right, var(--celesteClaro), var(--naranja));
+}
