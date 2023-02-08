@@ -7,11 +7,15 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { InicioPageComponent } from './Components/inicio-page/inicio-page.component';
+import { InicioPageComponent } from './Layouts/inicio-page/inicio-page.component';
 import { MenuComponent } from './Shared/menu/menu.component';
 import { FooterComponent } from './Shared/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
+import { InicioDocenteComponent } from './Components/Docente/inicio-docente/inicio-docente.component';
+import { InicioEstudianteComponent } from './Components/Estudiante/inicio-estudiante/inicio-estudiante.component';
+import { InicioContenidoComponent } from './Layouts/inicio-contenido/inicio-contenido.component';
+import { InicioAdministracionComponent } from './Components/Administracion/inicio-administracion/inicio-administracion.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +23,11 @@ import { FormsModule } from '@angular/forms';
         InicioPageComponent,
         MenuComponent,
         FooterComponent,
-        CarruselComponent
+        CarruselComponent,
+        InicioDocenteComponent,
+        InicioEstudianteComponent,
+        InicioContenidoComponent,
+        InicioAdministracionComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
