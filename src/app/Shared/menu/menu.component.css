@@ -1,0 +1,20 @@
+.nav-link{
+    color: var(--azulCadete);
+}
+
+.nav-link:hover{
+    color: var(--negro);
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--naranja);
+}
+
+span{
+    font-size: small;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+  
