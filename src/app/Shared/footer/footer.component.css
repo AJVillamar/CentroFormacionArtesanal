@@ -1,0 +1,8 @@
+footer{
+    background: var(--naranja);
+}
+
+a{
+    text-decoration: none;
+    font-size: small;
+}
