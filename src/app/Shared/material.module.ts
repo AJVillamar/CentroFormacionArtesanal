@@ -10,11 +10,16 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { FooterComponent } from './footer/footer.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    FooterComponent,
+    MenuComponent
+  ],
   imports: [
     CommonModule
   ],
