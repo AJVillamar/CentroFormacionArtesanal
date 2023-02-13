@@ -16,7 +16,12 @@ import { InicioDocenteComponent } from './Components/Docente/inicio-docente/inic
 import { InicioEstudianteComponent } from './Components/Estudiante/inicio-estudiante/inicio-estudiante.component';
 import { InicioContenidoComponent } from './Layouts/inicio-contenido/inicio-contenido.component';
 import { InicioAdministracionComponent } from './Components/Administracion/inicio-administracion/inicio-administracion.component';
-
+import { MatIconModule } from '@angular/material/icon';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatCardModule } from '@angular/material/card'
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import {FichaDatosComponent } from './Components/Estudiante/ficha-datos/ficha-datos.component';
+import { MatRadioModule } from '@angular/material/radio';
 @NgModule({
     declarations: [
         AppComponent,
@@ -27,7 +32,9 @@ import { InicioAdministracionComponent } from './Components/Administracion/inici
         InicioDocenteComponent,
         InicioEstudianteComponent,
         InicioContenidoComponent,
-        InicioAdministracionComponent
+        InicioAdministracionComponent,
+        FichaDatosComponent,
+        
     ],
     providers: [],
     bootstrap: [AppComponent],
@@ -38,7 +45,12 @@ import { InicioAdministracionComponent } from './Components/Administracion/inici
         MaterialModule,
         ReactiveFormsModule,
         NgbModule,
-        FormsModule
+        FormsModule,
+        MatIconModule,
+        MatDialogModule,
+        MatCardModule,
+        MatDatepickerModule,
+        MatRadioModule
     ]
 })
 export class AppModule { }
