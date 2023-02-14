@@ -1,0 +1,67 @@
+<mat-card>
+    <div class="cabecera">
+      <mat-card-title>Ficha de Datos Estudiantes</mat-card-title>
+    </div>
+    <br />
+    <form [formGroup]="ingresarDatos" (ngSubmit)="onSubmit()">
+      <h4 class="subtitulo-form">Por favor llenar tus datos correctamente</h4>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+
+            <mat-form-field class="campos-field">
+                <input matInput placeholder="Cedula" formControlName="cedula" />
+              </mat-form-field>
+
+            <mat-form-field class="campos-field">
+              <input matInput placeholder="Nombres" formControlName="nombres" />
+            </mat-form-field>
+  
+            <mat-form-field class="campos-field">
+              <input
+                matInput placeholder="Apellidos"formControlName="apellidos"/>
+            </mat-form-field>
+  
+            <mat-form-field class="campos-field">
+              <input matInput placeholder="Edad" formControlName="edad" />
+            </mat-form-field>
+  
+            <mat-form-field class="campos-field">
+                <input matInput placeholder="Dirección" formControlName="direccion" />
+              </mat-form-field>
+    
+            <mat-form-field class="campos-field">
+              <input
+                matInput  placeholder="Correo electrónico" formControlName="correoelectr" />
+            </mat-form-field>
+
+            <mat-form-field class="campos-field">
+                <input matInput placeholder="Telefono" formControlName="telefono" />
+              </mat-form-field>
+
+              <mat-form-field class="campos-field">
+                <input matInput placeholder="Nivel de educación" formControlName="niveledu" />
+              </mat-form-field>
+
+            </div>
+            
+          </div>
+        </div>
+        <div class="row justify-content-md-center botones">
+          <div class="col-md-auto">
+            <button mat-raised-button [disabled]="ingresarDatos.invalid">
+              Enviar
+            </button>
+            &nbsp;
+            <button
+              mat-raised-button
+              color="warn"
+              (click)="cancelar()"
+              type="reset"
+            >
+              Cancelar
+            </button>
+          </div>
+        </div>
+    </form>
+  </mat-card>
