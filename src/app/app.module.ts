@@ -17,7 +17,7 @@ import { InicioEstudianteComponent } from './Components/Estudiante/inicio-estudi
 import { InicioContenidoComponent } from './Layouts/inicio-contenido/inicio-contenido.component';
 import { InicioAdministracionComponent } from './Components/Administracion/inicio-administracion/inicio-administracion.component';
 import { LoginDocenteComponent } from './Components/Docente/login-docente/login-docente.component';
-
+ 
 @NgModule({
     declarations: [
         AppComponent,
