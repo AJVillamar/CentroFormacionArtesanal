@@ -21,4 +21,4 @@ body {
     --celesteClaro: #E0FBFC;
     --naranja: #EE6C4D;
     --combinado: linear-gradient(to right, var(--celesteClaro), var(--naranja));
-}
+} 

@@ -16,6 +16,7 @@ import { InicioDocenteComponent } from './Components/Docente/inicio-docente/inic
 import { InicioEstudianteComponent } from './Components/Estudiante/inicio-estudiante/inicio-estudiante.component';
 import { InicioContenidoComponent } from './Layouts/inicio-contenido/inicio-contenido.component';
 import { InicioAdministracionComponent } from './Components/Administracion/inicio-administracion/inicio-administracion.component';
+import { LoginDocenteComponent } from './Components/Docente/login-docente/login-docente.component';
 
 @NgModule({
     declarations: [
@@ -27,7 +28,8 @@ import { InicioAdministracionComponent } from './Components/Administracion/inici
         InicioDocenteComponent,
         InicioEstudianteComponent,
         InicioContenidoComponent,
-        InicioAdministracionComponent
+        InicioAdministracionComponent,
+        LoginDocenteComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
